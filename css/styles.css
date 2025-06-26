@@ -6,22 +6,6 @@
   --negro: #000;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Segoe UI', sans-serif;
-  background: var(--blanco);
-  color: var(--gris-oscuro);
-  scroll-behavior: smooth;
-}
-
-:root {
-  --azul: #003f91;
-  --gris-claro: #f4f4f4;
-  --gris-oscuro: #333;
-  --blanco: #fff;
-  --negro: #000;
-}
 
 body {
   margin: 0;
@@ -44,7 +28,12 @@ header {
   top: 0;
   width: 100%;
   z-index: 100;
+  flex-wrap: wrap;
   box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+nav {
+    display: none;
 }
 
 nav ul {
@@ -203,6 +192,14 @@ section {
   line-height: 1.4;
 }
 
+#testimonios {
+  background-color: var(--gris-claro);
+}
+
+.testimonies-container {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
 
 form {
   background: #fff;
