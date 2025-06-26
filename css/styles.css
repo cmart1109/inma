@@ -44,6 +44,20 @@ header {
   width: 100%;
 }
 
+.header-logo {
+  width: 60px;
+}
+
+.logo-box {
+  display: flex;
+  align-items: center;
+  font-family: "Abel", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 35px;
+}
+
+
 
 .logo {
   display: flex;
@@ -127,7 +141,7 @@ section {
 
 .hero-text {
   backdrop-filter: blur(2px);
-  background: rgba(0,0,0,0.25);
+  background: rgba(0,0,0,0.30);
   padding: 2rem 3rem;
   border-radius: 12px;
 }
