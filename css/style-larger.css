@@ -1,8 +1,37 @@
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
+
+header {
+    font-size: 18px;
+}
+
+nav a {
+    display: block;
+}
 
 nav {
     display: block;
 }
+
+header {
+  background: var(--blanco);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  padding-left: 1rem;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  flex-wrap: wrap;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+
+#menu {
+    display: none;
+}
+
 
 .gallery {
   display: grid;
@@ -10,4 +39,22 @@ nav {
   grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
   justify-items: center;
 }
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+
+nav ul {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    flex-direction: row;
+    padding: 1rem;
+}
+
 }
