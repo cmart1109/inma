@@ -223,6 +223,7 @@ input, textarea {
   padding: 1rem;
   border: 1px solid #ccc;
   border-radius: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 button {
