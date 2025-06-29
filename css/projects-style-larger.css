@@ -1,0 +1,13 @@
+@media screen and (min-width: 900px) {
+  
+  .adra-container { 
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  }
+  
+
+  #rebuild-container { 
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+
+
+}  

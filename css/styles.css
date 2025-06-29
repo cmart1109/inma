@@ -119,10 +119,6 @@ nav a:hover, nav a:focus {
   color: var(--blanco);
 }
 
-section {
-  scroll-margin-top: 80px; 
-}
-
 
 .hero {
   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../images/room.webp') center/cover;
@@ -302,4 +298,3 @@ footer {
   text-align: center;
   padding: 1rem;
 }
-
