@@ -9,5 +9,13 @@
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 }
 
+  #rebuild-container img:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
 
+.adra-container img:hover {
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
 }  
