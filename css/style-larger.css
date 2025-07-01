@@ -37,6 +37,12 @@ header {
   justify-items: center;
 }
 
+.social-cards-container {
+    display: flex;
+    justify-content: center;
+    
+}
+
 .header-container {
     display: flex;
     flex-direction: row;
