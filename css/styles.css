@@ -353,6 +353,11 @@ footer {
   filter: invert(1);
 }
 
+.social-cards-container {
+    display: flex;
+    justify-content: center;
+    
+}
 
 /* From Uiverse.io by vinodjangid07 */ 
 .social-card {
