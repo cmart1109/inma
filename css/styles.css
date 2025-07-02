@@ -376,6 +376,15 @@ footer {
     
 }
 
+.thanks {
+  margin-top: 1rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 /* From Uiverse.io by vinodjangid07 */ 
 .social-card {
   width: fit-content;
@@ -437,6 +446,7 @@ footer {
   animation: slide-in-top 0.3s both;
 }
 
+
 @keyframes slide-in-top {
   0% {
     transform: translateY(-50px);
@@ -447,5 +457,8 @@ footer {
     transform: translateY(0);
     opacity: 1;
   }
+
+
+  
 }
 
